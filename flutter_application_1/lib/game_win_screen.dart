@@ -15,6 +15,15 @@ class GameWinScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 174, 230, 176),
       appBar: AppBar(
+        leading: IconButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const HomeScreen(),
+                ),
+              );
+            },
+            icon: const Icon(Icons.arrow_back, color: Colors.white,),),
         iconTheme: const IconThemeData(color: Colors.white),
         title: const Text(
           'Guess Game',
