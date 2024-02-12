@@ -20,7 +20,7 @@ class GameOverScreen extends StatelessWidget {
           'Guess Game',
           style: TextStyle(
             color: Colors.white,
-            fontWeight: FontWeight.bold,
+            fontWeight: FontWeight.w800,
           ),
         ),
         backgroundColor: Colors.blueAccent,
