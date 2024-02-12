@@ -98,6 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        iconTheme: const IconThemeData(color: Colors.white), 
         backgroundColor: Colors.blue,
         title: const Text(
           'Guessing Game',
@@ -195,7 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
 
             // Button
-            MyButton(
+              MyButton(
               text: "Submit",
               color: Colors.blue,
               onpressed: checkGuess,

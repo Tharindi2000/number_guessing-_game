@@ -8,7 +8,7 @@ class TryAgainScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 236, 194, 208),
       appBar: AppBar(
-        iconTheme: const IconThemeData(color: Colors.white),
+        iconTheme: const IconThemeData(color: Colors.white), 
         title: const Text(
           'Guess Game',
           style: TextStyle(
