@@ -1,9 +1,10 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/game_over_screen.dart';
-import 'package:flutter_application_1/game_win_screen.dart';
-import 'package:flutter_application_1/my_button.dart';
-import 'package:flutter_application_1/try_again_screen.dart';
+import 'package:flutter_application_1/screens/game_over_screen.dart';
+import 'package:flutter_application_1/screens/game_win_screen.dart';
+import 'package:flutter_application_1/screens/my_button.dart';
+import 'package:flutter_application_1/screens/try_again_screen.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -201,7 +202,7 @@ class _HomeScreenState extends State<HomeScreen> {
               text: "Submit",
               color: Colors.blue,
               onpressed: checkGuess,
-              textStyle: TextStyle(color: Colors.white),
+              textStyle: const TextStyle(color: Colors.white),
             ),
           ],
         ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/my_button.dart';
 import 'package:flutter_application_1/screens/home_screen.dart';
+import 'package:flutter_application_1/screens/my_button.dart';
 
 class GameOverScreen extends StatelessWidget {
   final int secretNumber;
